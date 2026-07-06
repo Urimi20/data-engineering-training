@@ -1,0 +1,37 @@
+Daily Report - Monday Practice
+
+Today I worked on:
+
+Student dataset analysis using Python
+Calculating averages and grouping data by city and course
+Filtering students based on attendance and homework scores
+Building a final structured report from the dataset
+
+Completed tasks:
+
+Created and structured the student dataset
+Calculated total students, average attendance, and homework score
+Grouped students by city and course
+Identified strong students and students needing support
+Built a final report output in terminal
+
+Not completed yet:
+
+Converting the report into a more advanced formatted output (table-style or export)
+Optimizing code using functions to reduce repetition
+
+Biggest difficulty:
+
+Making sure all conditions for filtering students were correct and consistent
+
+How I tried to solve it:
+
+Tested each condition step by step in loops
+Printed intermediate results to verify outputs
+Adjusted logic when results didn’t match expectations
+
+What I need to improve for Tuesday:
+
+Writing cleaner and more reusable code (using functions)
+Reducing repetition in loops
+Improving structure of final report output
