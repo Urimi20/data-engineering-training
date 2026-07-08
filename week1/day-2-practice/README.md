@@ -52,3 +52,8 @@ Open the terminal inside the project folder and run:
 ```bash
 python csv_pipeline.py
 ```
+
+<img width="2265" height="1325" alt="image" src="https://github.com/user-attachments/assets/dab89af8-4158-4dfd-b00d-7434b16d694b" />
+
+
+
