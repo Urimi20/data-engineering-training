@@ -1,0 +1,55 @@
+Daily Report - Day 6 Practice
+
+Today I worked on:
+- Building a small SQL business reporting system using three tables: orders, customers, and products.
+- Creating queries to analyze sales, customers, products, and revenue.
+
+SQL setup completed:
+- Created the customers, products, and orders tables.
+- Inserted all dataset records.
+- Verified that all tables contained the correct data.
+
+Aggregation tasks completed:
+- Used COUNT() to calculate total orders and orders by status.
+- Used SUM() to calculate total quantities and completed revenue.
+- Used AVG(), MIN(), and MAX() to analyze product prices.
+
+GROUP BY tasks completed:
+- Created reports grouped by status, customer, product, and date.
+- Used HAVING to filter grouped results.
+- Sorted reports from highest to lowest where needed.
+
+JOIN tasks completed:
+- Connected orders with customers and products tables.
+- Created complete reports with customer names, cities, product names, prices, and total amounts.
+- Calculated revenue by product, category, city, and customer.
+
+Business report completed:
+- Analyzed the SQL results and identified important business insights.
+- Found the highest revenue products, categories, cities, and customers.
+
+What I understood better today:
+- I understood how databases separate information into different tables.
+- I learned how JOIN connects related data from multiple tables.
+- I understood the difference between filtering rows with WHERE and filtering grouped results with HAVING.
+- I learned how SQL can answer real business questions.
+
+What was difficult:
+- Understanding when to use GROUP BY and HAVING.
+- Writing JOIN queries with multiple tables.
+- Making sure revenue calculations only included completed orders.
+
+What I need to practice more:
+- More complex JOIN queries.
+- Writing faster SQL queries.
+- Creating more business reports using multiple conditions.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I used AI to help explain SQL concepts, check query structure, and understand errors while writing reports.
+- I used it as a learning support tool, but I reviewed and understood the final queries.
+
+What can I explain live without help:
+- I can explain how to create tables and insert data.
+- I can explain COUNT, SUM, GROUP BY, HAVING, and JOIN.
+- I can explain how to calculate revenue using quantity * price.
+- I can describe how SQL reports help businesses make decisions.
