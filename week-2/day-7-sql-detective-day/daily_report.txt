@@ -1,0 +1,59 @@
+Daily Report - Day 7 Practice
+
+Today I worked on:
+- Setting up a three-table SQL database with customers, products, and orders.
+- Inspecting tables and checking the inserted data.
+- Debugging incorrect SQL queries and creating corrected versions.
+- Creating validation queries to support a business report.
+
+
+Broken queries I fixed:
+- Fixed queries with missing JOINs.
+- Fixed queries using columns from the wrong table.
+- Fixed syntax errors such as missing commas and incorrect query order.
+- Fixed incorrect revenue calculations and filtering logic.
+
+
+Validation queries I completed:
+- Counted total orders, customers, and products.
+- Verified completed, pending, and cancelled orders.
+- Calculated completed revenue only.
+- Verified revenue by product and category.
+- Checked order activity by city.
+- Found repeat customers and non-revenue orders.
+
+
+Business numbers I verified:
+- Total number of orders.
+- Number of completed orders.
+- Number of pending and cancelled orders.
+- Total completed revenue.
+- Revenue performance by product and category.
+- Highest order activity by city.
+
+
+What SQL mistake I understand better now:
+- I understand better that columns must come from the correct tables.
+- I learned when JOIN is required to combine related information.
+- I understand that revenue calculations should only include completed orders.
+
+
+What was difficult:
+- Finding the exact reason why some queries failed.
+- Understanding which table contains the required information.
+- Making sure validation queries match the final business report.
+
+
+What I need to practice more:
+- Writing more complex JOIN queries.
+- Improving SQL debugging speed.
+- Creating more advanced business reports.
+
+
+Did I use AI? If yes, how did I use it?
+- Yes. I used AI as a learning assistant to understand SQL mistakes, review query logic, and improve explanations.
+- I checked the suggestions and made sure I understood the final queries.
+
+
+Can I explain my fixed queries live?
+- Yes. I can explain what was wrong, how I fixed each query, why JOIN was needed, and what business result each query provides.
