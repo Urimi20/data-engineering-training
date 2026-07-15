@@ -1,0 +1,34 @@
+
+----------------------------------------
+Business Report
+----------------------------------------
+Completed orders: 11
+Non-revenue orders: 6
+Completed revenue: 1849
+
+Top 5 completed orders:
+Order 1 | Arta | 700
+Order 8 | Leart | 360
+Order 23 | Faton | 240
+Order 4 | Dren | 180
+Order 9 | Faton | 120
+
+Recommendation:
+Use only valid completed orders for revenue. Exclude invalid and non-completed orders to avoid incorrect reporting.
+
+----------------------------------------
+Business Report
+----------------------------------------
+Completed orders: 11
+Non-revenue orders: 6
+Completed revenue: 1849
+
+Top 5 completed orders:
+Order 1 | Arta | 700
+Order 8 | Leart | 360
+Order 23 | Faton | 240
+Order 4 | Dren | 180
+Order 9 | Faton | 120
+
+Recommendation:
+Use only valid completed orders for revenue. Exclude invalid and non-completed orders to avoid incorrect reporting.

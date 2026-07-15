@@ -1,0 +1,21 @@
+Total records: 24
+Valid records: 17
+Invalid records: 7
+
+----------------------------------------
+Raw records: 24
+Valid records: 17
+Invalid records: 7
+Total invalid reasons: 7
+
+Statuses before: ['completed', 'Completed', 'cancelled', 'pending', 'complete', 'returned']
+Statuses after: ['completed', 'cancelled', 'pending', 'returned']
+
+Cities before: ['Vushtrri', 'Prishtina', 'Mitrovica', 'Peja', 'Prizren', 'Ferizaj', 'Gjilan', 'Prishtine']
+Cities after: ['Vushtrri', 'Prishtina', 'Mitrovica', 'Peja', 'Prizren', 'Ferizaj']
+
+Categories before: ['Electronics', 'Accessories', 'accessories', 'Office']
+Categories after: ['Electronics', 'Accessories', 'Office']
+
+Channels before: ['online', 'store', 'Online', 'partner', 'unknown']
+Channels after: ['online', 'store']

@@ -1,0 +1,16 @@
+Order 15 -> missing customer_name
+Order 16 -> invalid channel
+Order 17 -> invalid quantity
+Order 18 -> invalid quantity
+Order 20 -> invalid price
+Order 21 -> invalid channel
+Order 24 -> invalid channel
+
+----------------------------------------
+Order ID: 15 | Customer:  | Reasons: missing customer_name
+Order ID: 16 | Customer: Bleron | Reasons: invalid channel
+Order ID: 17 | Customer: Medina | Reasons: invalid quantity
+Order ID: 18 | Customer: Ilir | Reasons: invalid quantity
+Order ID: 20 | Customer: Arta | Reasons: invalid price
+Order ID: 21 | Customer: Leart | Reasons: invalid channel
+Order ID: 24 | Customer: Rina | Reasons: invalid channel

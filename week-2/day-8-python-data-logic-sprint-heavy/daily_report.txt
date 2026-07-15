@@ -1,0 +1,54 @@
+# Daily Report - Day 8 Practice
+
+## Today I worked on:
+
+* Building a complete Python data processing workflow from raw order data to business reports.
+* Organizing the script into different parts: validation, cleaning, metrics, reports, and data quality investigation.
+
+## Python tasks completed:
+
+* Created functions for processing orders.
+* Used lists and dictionaries to store and analyze data.
+* Practiced loops, conditions, functions, and file handling.
+* Created dynamic reports without hardcoding values.
+
+## Validation logic completed:
+
+* Added checks for missing fields.
+* Validated quantity, price, status, and channel values.
+* Separated valid and invalid records.
+* Generated reports showing invalid records and their reasons.
+
+## Cleaning/normalization completed:
+
+* Normalized status values (for example, "complete" and "completed" became "completed").
+* Cleaned city, category, and channel values.
+* Added `total_amount` calculation for each valid order.
+
+## Reports generated:
+
+* Created validation report.
+* Created invalid records report.
+* Created business report with metrics and rankings.
+* Generated summaries for revenue, customers, products, cities, and categories.
+
+## What was difficult:
+
+* The most difficult part was connecting all parts of the data pipeline correctly and making sure that only validated and cleaned data was used for business calculations.
+* Understanding how to organize a large Python script into smaller functions was also challenging.
+
+## What I understood better today:
+
+* How raw data goes through validation, cleaning, and reporting steps.
+* How dictionaries can be used for dynamic counting and revenue calculations.
+* How functions make code easier to manage and debug.
+
+## What I need to practice more:
+
+* Writing cleaner and shorter functions.
+* Working with larger datasets.
+* Improving code organization and reducing repeated logic.
+
+## Did I use AI? If yes, how did I use it?
+
+Yes. I used AI as a learning assistant to understand errors, improve my Python logic, review my code structure, and get explanations for concepts that were difficult. I still wrote and tested the code myself and used AI mainly for guidance and debugging.
