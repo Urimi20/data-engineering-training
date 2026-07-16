@@ -1,0 +1,15 @@
+Business Summary - Day 9
+
+Total orders: 13
+Total revenue: 3284
+Completed orders: 9
+
+Orders by channel:
+- online: 7
+- store: 5
+- unknown: 1
+
+Orders by category:
+- Electronics: 5
+- Accessories: 6
+- Office: 2

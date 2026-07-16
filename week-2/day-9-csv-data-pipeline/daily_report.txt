@@ -1,0 +1,37 @@
+Daily Report - Day 9 Practice
+
+Today I worked on:
+- Building a Python CSV data pipeline that loads raw CSV files, validates data, cleans records, enriches orders, and creates output reports.
+- Implementing CSV loading, lookup tables, normalization, validation, enrichment, and file generation.
+
+Pipeline parts completed:
+- Part 1: Pipeline explanation
+- Part 2: Loading raw CSV files using csv.DictReader
+- Part 3: Building lookup tables for customers and products
+- Part 4: Normalizing status, city, and channel values
+- Part 5: Validating orders and separating invalid records
+- Part 6: Enriching valid orders with customer and product information
+- Part 7: Writing orders_clean.csv and invalid_orders.csv
+- Part 8: Creating data quality report
+- Part 9: Creating business summary report
+- Part 10: Organizing the main pipeline structure
+
+Most difficult part:
+- The most difficult part was understanding how validation, lookup tables, and enrichment work together. It required thinking like a data engineer and making sure only trusted data moved to the Silver layer.
+
+One bug/error I fixed:
+- I fixed a problem where some city values were showing as None because the normalize_city() function did not return values for all cities.
+- I also fixed a NameError caused by calling create_business_summary() before creating the function.
+
+What I understood better about Bronze/Silver/Gold:
+- Bronze contains raw data exactly as received.
+- Silver contains cleaned, validated, and enriched data that can be trusted.
+- Gold contains business-ready reports and summaries created from clean data.
+- Data needs to be transformed and checked before it becomes useful for business decisions.
+
+What I need to practice more:
+- I need to practice more with larger datasets, SQL joins, Databricks notebooks, and building more complex data pipelines.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I used AI as a learning assistant to understand errors, improve my code structure, and clarify concepts.
+- I used it to explain problems and verify my understanding, but I wrote and tested the final implementation myself.
