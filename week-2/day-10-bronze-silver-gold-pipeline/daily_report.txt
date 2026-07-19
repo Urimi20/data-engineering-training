@@ -1,0 +1,51 @@
+# Daily Report - Day 10 Practice
+
+Today I worked on:
+
+* Building a complete Bronze, Silver, and Gold data pipeline using Python and CSV files.
+
+Bronze tasks completed:
+
+* Read the raw CSV files.
+* Counted the number of records in each file.
+* Kept the raw data unchanged.
+* Documented the purpose of the Bronze layer.
+
+Silver tasks completed:
+
+* Cleaned customer and product data.
+* Normalized status, channel, and city values.
+* Validated quantities, order dates, customer IDs, product IDs, and duplicate order IDs.
+* Created `customers_clean.csv`, `products_clean.csv`, `orders_clean.csv`, and `invalid_orders.csv`.
+* Enriched valid orders with customer and product information.
+* Calculated the `total_amount` for each valid order.
+
+Gold tasks completed:
+
+* Created business-ready reports:
+
+  * revenue_by_category.csv
+  * revenue_by_city.csv
+  * revenue_by_customer.csv
+  * top_products.csv
+* Created an executive summary.
+
+What I understood better today:
+
+* I better understood the purpose of the Bronze, Silver, and Gold architecture and why data must be cleaned and validated before creating business reports.
+
+What was difficult:
+
+* The most difficult part was validating orders, handling duplicate records, and combining customer and product information into clean orders.
+
+One result I can explain and defend:
+
+* I can explain how the pipeline validates raw data, removes invalid records, enriches valid orders, and generates trusted business reports from the cleaned data.
+
+What I need to practice more:
+
+* I need more practice with larger data pipelines, reusable functions, and advanced data validation techniques.
+
+Did I use AI? If yes, how did I use it?
+
+* Yes. I used AI to understand the assignment requirements, clarify validation logic, and review parts of my Python code while writing and debugging the pipeline.

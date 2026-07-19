@@ -1,0 +1,39 @@
+# Data Quality Report
+
+## Validation Checks
+
+Raw orders count: 30
+
+Silver clean orders count: 22
+
+Invalid orders count: 8
+
+Raw = Silver + Invalid: YES
+
+Customer IDs checked: YES
+
+Product IDs checked: YES
+
+Duplicate order IDs found: 1
+
+Missing dates found: 1
+
+Invalid quantities found: 3
+
+Invalid statuses found: 1 (normalized to "unknown")
+
+Invalid products found: 2
+
+Invalid customers found: 1
+
+Invalid product prices found: 2
+
+Missing customer cities found: 1
+
+Invalid records by reason:
+
+* Invalid quantity: 3
+* Customer not found: 1
+* Product not found: 2
+* Missing order date: 1
+* Duplicate order_id: 1

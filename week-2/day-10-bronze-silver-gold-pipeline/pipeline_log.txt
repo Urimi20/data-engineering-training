@@ -1,0 +1,24 @@
+Pipeline Log - Day 10
+
+Step 1: Loaded Bronze files.
+
+Step 2: Cleaned customers and normalized city names.
+
+Step 3: Cleaned products, validated prices, and replaced missing categories.
+
+Step 4: Validated orders (status, channel, quantity, date, customer ID, product ID, duplicate order IDs).
+
+Step 5: Enriched valid orders with customer and product information.
+
+Step 6: Created Silver files:
+
+* customers_clean.csv
+* products_clean.csv
+* orders_clean.csv
+* invalid_orders.csv
+
+Step 7: Created Gold revenue reports.
+
+Step 8: Created executive summary.
+
+Pipeline completed successfully.
