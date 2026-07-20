@@ -1,0 +1,50 @@
+# Daily Report - Day 11 Practice
+
+**Today I worked on:**
+
+* Built a complete Python data pipeline following the Bronze, Silver, and Gold architecture.
+* Implemented data validation, normalization, lookup tables, and business reporting.
+
+**Bronze tasks completed:**
+
+* Loaded raw orders, customers, and products from CSV files.
+* Prepared the raw data for processing.
+
+**Silver tasks completed:**
+
+* Validated orders based on business rules.
+* Normalized status, city, and channel values.
+* Detected duplicate, missing, and invalid records.
+* Enriched orders with customer and product information.
+* Generated `orders_clean.csv` and `invalid_orders.csv`.
+
+**Gold tasks completed:**
+
+* Created revenue reports by city and by product category.
+* Generated a report for top customers based on completed revenue.
+* Created a professional `executive_summary.txt` with business KPIs and pipeline status.
+
+**What I understood better today:**
+
+* How Bronze, Silver, and Gold layers work together in a data engineering pipeline.
+* How lookup tables simplify joining data from multiple datasets.
+* How business rules improve data quality before reporting.
+
+**What was difficult:**
+
+* Debugging validation logic and fixing issues with duplicate orders and revenue calculations.
+* Making sure only valid completed orders were included in Gold reports.
+
+**One result I can explain and defend:**
+
+* The Gold reports use only validated completed orders from the Silver layer, ensuring that revenue calculations are accurate and trustworthy.
+
+**What I need to practice more:**
+
+* Writing more advanced validation rules.
+* Improving code organization and reusable functions.
+* Preparing SQL transformations for future data engineering projects.
+
+**Did I use AI? If yes, how did I use it?**
+
+* Yes. I used AI to review my code, identify bugs, improve the executive summary, and verify that the pipeline met the assignment requirements.

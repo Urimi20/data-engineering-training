@@ -1,0 +1,27 @@
+====================================
+       EXECUTIVE BUSINESS SUMMARY
+             Day 11 Pipeline
+====================================
+
+Overview:
+This report summarizes business performance based on validated completed orders from the Silver layer.
+
+Key Performance Indicators:
+- Completed Orders: 11
+- Completed Revenue: 2851.00
+- Active Cities: 5
+- Product Categories Sold: 3
+
+Business Rules Applied:
+- Only valid clean orders were included.
+- Revenue calculation includes completed orders only.
+- Invalid and inconsistent records were excluded.
+
+Data Pipeline Status:
+- Bronze Layer: Raw source data processed.
+- Silver Layer: Data cleaned, validated, and enriched.
+- Gold Layer: Business reports generated successfully.
+
+====================================
+Generated automatically by Python Data Pipeline
+====================================
