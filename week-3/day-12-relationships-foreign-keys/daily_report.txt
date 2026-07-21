@@ -1,0 +1,33 @@
+Day 12 - Relationships, Foreign Keys, and JOINs
+
+Today I worked on:
+- Building a relational database using SQLite.
+- Creating tables with primary keys, foreign keys, and auto increment.
+- Inserting data and testing relationships between tables.
+- Writing JOIN queries for business reports.
+
+What I completed:
+- Created customers, products, orders, and order_items tables.
+- Added valid data using AUTOINCREMENT IDs.
+- Tested invalid inserts using FOREIGN KEY and CHECK constraints.
+- Created INNER JOIN and LEFT JOIN reports.
+
+What I understood better today:
+- Primary keys create unique identifiers for tables.
+- Foreign keys connect tables and protect data integrity.
+- order_items works as a bridge table for many-to-many relationships.
+- JOINs help combine data from multiple tables for reporting.
+
+What was difficult:
+- Understanding how relationships work between multiple tables.
+- Understanding when to use INNER JOIN and LEFT JOIN.
+
+One result I can explain and defend:
+- Completed revenue by city report using multiple JOINs and filtering only completed orders.
+
+What I need to practice more:
+- Writing more complex JOIN queries.
+- Designing better database relationships.
+
+Did I use AI? If yes, how did I use it?
+- Yes, I used AI to understand concepts, check SQL structure, and improve explanations.
