@@ -1,0 +1,36 @@
+# Day 13 - Relationships and Foreign Keys
+
+## What I worked on
+
+Today I designed a relational database in SQLite using primary keys, foreign keys, and constraints. I created a complete database schema, inserted realistic seed data, tested data integrity, and built SQL reports using different types of JOINs.
+
+## What I completed
+
+- Created the database schema from scratch.
+- Designed relationships between students, instructors, courses, enrollments, attendance, assignments, and submissions.
+- Used PRIMARY KEY, AUTOINCREMENT, FOREIGN KEY, UNIQUE, and CHECK constraints.
+- Inserted realistic seed data for all tables.
+- Created constraint tests to verify database integrity.
+- Built beginner, intermediate, and advanced JOIN reports.
+- Created a manager report with business-focused SQL queries.
+- Documented the project with README.md and answers.md.
+
+## What I learned
+
+- How foreign keys maintain relationships between tables.
+- Why bridge tables are required for many-to-many relationships.
+- The difference between INNER JOIN and LEFT JOIN.
+- How constraints improve data quality.
+- How to write business reports using JOIN, GROUP BY, COUNT, and AVG.
+
+## Challenges
+
+- Keeping foreign key relationships correct across multiple tables.
+- Creating realistic seed data that supports meaningful reports.
+- Building complex JOIN queries while avoiding duplicate results.
+
+## Next Steps
+
+- Practice more advanced SQL reporting.
+- Learn SQL Views and Triggers.
+- Continue preparing for Databricks and data engineering projects.
