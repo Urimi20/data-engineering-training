@@ -1,0 +1,9 @@
+Day 14 - Daily Report
+
+Today I designed and built a relational database for a training center management system using SQLite.
+I created tables for students, programs, instructors, enrollments, attendance, and payments with primary keys,
+foreign keys, and constraints to ensure data integrity.
+
+I inserted realistic test data and verified the relationships between tables.
+I also wrote JOIN, aggregation, HAVING, and data quality reports to answer business questions about student progress,
+attendance, payments, and program performance. Finally, I tested foreign key and constraint errors to confirm that the database correctly protects against invalid data.
