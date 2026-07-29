@@ -1,0 +1,35 @@
+Day 17 - Daily Report
+Date: 2026-07-29
+
+Today's training focused on SQL Schema Evolution, Views, Transactions, and Indexes. I learned how databases evolve over time as business requirements change without recreating existing tables.
+
+Tasks completed:
+
+- Created the training platform database in setup.sql.
+- Added new columns using ALTER TABLE.
+- Updated newly added columns with sample data using UPDATE.
+- Created reusable SQL views for student profiles, submissions, attendance, missing feedback, student performance, and missing submissions.
+- Practiced using CASE WHEN to classify student performance.
+- Used COALESCE to replace NULL feedback values with "No feedback yet".
+- Used LEFT JOIN to include students even when they had no submissions.
+- Practiced transactions using BEGIN TRANSACTION, ROLLBACK, and COMMIT.
+- Created indexes to improve query performance on frequently searched columns.
+- Completed the integration challenge by creating final_student_progress_view.
+- Documented schema evolution concepts and project explanations in README.md and schema_evolution_notes.md.
+
+Key concepts learned:
+
+- Difference between changing data and changing database schema.
+- How ALTER TABLE allows schema evolution.
+- Purpose and benefits of SQL views.
+- Difference between tables and views.
+- Safe database updates using transactions.
+- Purpose of ROLLBACK and COMMIT.
+- How indexes improve database performance.
+- How these concepts relate to Databricks and modern data engineering.
+
+Time spent:
+Approximately 4 hours.
+
+Overall progress:
+Successfully completed all required tasks and gained a better understanding of maintaining and evolving a real-world SQL database.
