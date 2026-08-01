@@ -1,0 +1,60 @@
+# Daily Report – 3-Day SQL Mini Project
+
+**Project:** Training Program Management & Analytics System
+**Client:** Unity Tech Hub x Agilyti
+**Duration:** Wednesday – Friday
+
+## Day 1 – Database Design and Data Setup
+
+On the first day, I analyzed the client requirements and designed a normalized relational database to support the complete 
+training process. I created the database structure by defining tables for students, programs, staff, enrollments, sessions, 
+attendance, assignments, submissions, and feedback.
+
+I established relationships between the tables using primary keys and foreign keys to ensure data integrity. 
+I also added UNIQUE constraints to prevent duplicate records and CHECK constraints to validate statuses, roles, 
+and score ranges. After completing the database design, I inserted realistic sample data representing students, programs, 
+instructors, attendance records, assignments, submissions, and feedback. Finally, I created relationship tests to verify that 
+the database rejects invalid data such as duplicate emails, invalid scores, duplicate attendance, duplicate submissions, and 
+foreign key violations.
+
+---
+
+## Day 2 – Reporting and Business Analysis
+
+On the second day, I focused on creating SQL reports that answer the client's business questions. 
+I developed multiple JOIN reports to display students with their enrolled programs, instructors assigned to programs
+, attendance information, assignment submissions, active students, dropped students, and reviewed submissions.
+
+I also created advanced reports using aggregate functions such as COUNT, SUM, AVG, MIN, MAX, GROUP BY, HAVING, CASE WHEN,
+and COALESCE. These reports analyzed student performance, attendance summaries, average scores, missing submissions,
+missing feedback, program performance, students who need additional support, and students who are ready for the next phase.
+Additionally, I created missing-data reports using LEFT JOIN and IS NULL to identify incomplete records and missing activities.
+
+
+---
+
+## Day 3 – Maintenance, Views, Transactions, Indexes and Final Report
+
+On the final day, I implemented maintenance queries following the safe workflow of SELECT before UPDATE and SELECT after UPDATE. 
+I corrected student information, updated program statuses, normalized city names, added missing feedback, updated scores, and 
+demonstrated the difference between soft delete and hard delete.
+
+I created reusable SQL views for student programs, submissions, attendance summaries, risk analysis, and a management 
+dashboard to simplify future reporting. I also implemented transactions using COMMIT and ROLLBACK to demonstrate safe data
+modifications and recovery from unwanted changes. To improve query performance, I created indexes on frequently searched 
+columns used in JOIN, WHERE, and reporting queries.
+
+Finally, I completed the Final Manager Report, which combines attendance rate, average score, missing submissions, missing 
+feedback, readiness level, final status, and recommended next actions for every student. I also prepared the project documentation
+in the README file, explaining the database design, business logic, relationships, constraints, reports, views, transactions, 
+indexes, and the overall solution.
+
+---
+
+## Summary
+
+During these three days, I designed and implemented a complete relational database system that meets the client's requirements. 
+The project includes a normalized database design, realistic sample data, data validation through constraints, business reports, 
+missing-data analysis, maintenance operations, reusable views, transactions, indexes, and a final management dashboard. 
+This project strengthened my understanding of relational database design, SQL reporting, data integrity, and business-focused 
+database development.
